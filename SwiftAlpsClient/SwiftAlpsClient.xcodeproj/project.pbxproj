@@ -10,6 +10,8 @@
 		5958E7FF1DD4855300970C4C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E7FE1DD4855300970C4C /* User.swift */; };
 		5958E8011DD4855800970C4C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E8001DD4855800970C4C /* Post.swift */; };
 		5958E8031DD4856000970C4C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E8021DD4856000970C4C /* Comment.swift */; };
+		5958E8051DD48FCF00970C4C /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E8041DD48FCF00970C4C /* BlogViewController.swift */; };
+		5958E8071DD4910A00970C4C /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5958E8061DD4910A00970C4C /* PostTableViewCell.xib */; };
 		AE4897BF1DD47E1C00A978A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4897BE1DD47E1C00A978A0 /* AppDelegate.swift */; };
 		AE4897C11DD47E1C00A978A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */; };
 		AE4897C41DD47E1C00A978A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4897C21DD47E1C00A978A0 /* Main.storyboard */; };
@@ -32,9 +34,11 @@
 		5958E7FE1DD4855300970C4C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5958E8001DD4855800970C4C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		5958E8021DD4856000970C4C /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		5958E8041DD48FCF00970C4C /* BlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		5958E8061DD4910A00970C4C /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		AE4897BB1DD47E1C00A978A0 /* SwiftAlpsClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlpsClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4897BE1DD47E1C00A978A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		AE4897C31DD47E1C00A978A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE4897C51DD47E1C00A978A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4897C81DD47E1C00A978A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		5958E7FC1DD4850600970C4C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */,
+				5958E8041DD48FCF00970C4C /* BlogViewController.swift */,
 			);
 			name = ViewControllers;
 			path = SwiftAlpsClient/ViewControllers;
@@ -85,6 +91,9 @@
 		5958E7FD1DD4850D00970C4C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AE4897C21DD47E1C00A978A0 /* Main.storyboard */,
+				AE4897C71DD47E1C00A978A0 /* LaunchScreen.storyboard */,
+				5958E8061DD4910A00970C4C /* PostTableViewCell.xib */,
 			);
 			name = Views;
 			path = SwiftAlpsClient/Views;
@@ -116,10 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				AE4897BE1DD47E1C00A978A0 /* AppDelegate.swift */,
-				AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */,
-				AE4897C21DD47E1C00A978A0 /* Main.storyboard */,
 				AE4897C51DD47E1C00A978A0 /* Assets.xcassets */,
-				AE4897C71DD47E1C00A978A0 /* LaunchScreen.storyboard */,
 				AE4897CA1DD47E1C00A978A0 /* Info.plist */,
 			);
 			path = SwiftAlpsClient;
@@ -228,6 +234,7 @@
 				AE4897C91DD47E1C00A978A0 /* LaunchScreen.storyboard in Resources */,
 				AE4897C61DD47E1C00A978A0 /* Assets.xcassets in Resources */,
 				AE4897C41DD47E1C00A978A0 /* Main.storyboard in Resources */,
+				5958E8071DD4910A00970C4C /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +254,7 @@
 			files = (
 				5958E8031DD4856000970C4C /* Comment.swift in Sources */,
 				AE4897C11DD47E1C00A978A0 /* LoginViewController.swift in Sources */,
+				5958E8051DD48FCF00970C4C /* BlogViewController.swift in Sources */,
 				AE4897BF1DD47E1C00A978A0 /* AppDelegate.swift in Sources */,
 				5958E7FF1DD4855300970C4C /* User.swift in Sources */,
 				5958E8011DD4855800970C4C /* Post.swift in Sources */,
@@ -278,6 +286,7 @@
 				AE4897C31DD47E1C00A978A0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		AE4897C71DD47E1C00A978A0 /* LaunchScreen.storyboard */ = {
@@ -286,6 +295,7 @@
 				AE4897C81DD47E1C00A978A0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

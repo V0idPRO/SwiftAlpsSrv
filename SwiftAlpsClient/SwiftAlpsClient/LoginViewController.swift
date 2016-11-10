@@ -10,8 +10,6 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    @IBOutlet weak var anonymousLoginBtn: UIButton!
-    @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var usernameField: UITextField!
     
     override func viewDidLoad() {
@@ -22,6 +20,16 @@ class LoginViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+    
+    // MARK: - User interaction
+    @IBAction func loginClicked(_ sender: Any) {
+        print("Login")
+    }
+    
+    @IBAction func anonymousLoginClicked(_ sender: Any) {
+        print("Anonymous")
     }
 }
 
