@@ -11,12 +11,11 @@
 		5958E8011DD4855800970C4C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E8001DD4855800970C4C /* Post.swift */; };
 		5958E8031DD4856000970C4C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E8021DD4856000970C4C /* Comment.swift */; };
 		AE4897BF1DD47E1C00A978A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4897BE1DD47E1C00A978A0 /* AppDelegate.swift */; };
-		AE4897C11DD47E1C00A978A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4897C01DD47E1C00A978A0 /* ViewController.swift */; };
+		AE4897C11DD47E1C00A978A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */; };
 		AE4897C41DD47E1C00A978A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4897C21DD47E1C00A978A0 /* Main.storyboard */; };
 		AE4897C61DD47E1C00A978A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4897C51DD47E1C00A978A0 /* Assets.xcassets */; };
 		AE4897C91DD47E1C00A978A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4897C71DD47E1C00A978A0 /* LaunchScreen.storyboard */; };
 		AE4897D41DD47E1C00A978A0 /* SwiftAlpsClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4897D31DD47E1C00A978A0 /* SwiftAlpsClientTests.swift */; };
-		AE4897E01DD47E5300A978A0 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4897DF1DD47E5300A978A0 /* PerfectLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,7 @@
 		5958E8021DD4856000970C4C /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		AE4897BB1DD47E1C00A978A0 /* SwiftAlpsClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlpsClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4897BE1DD47E1C00A978A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE4897C01DD47E1C00A978A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AE4897C31DD47E1C00A978A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE4897C51DD47E1C00A978A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4897C81DD47E1C00A978A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4897E01DD47E5300A978A0 /* PerfectLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				AE4897BE1DD47E1C00A978A0 /* AppDelegate.swift */,
-				AE4897C01DD47E1C00A978A0 /* ViewController.swift */,
+				AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */,
 				AE4897C21DD47E1C00A978A0 /* Main.storyboard */,
 				AE4897C51DD47E1C00A978A0 /* Assets.xcassets */,
 				AE4897C71DD47E1C00A978A0 /* LaunchScreen.storyboard */,
@@ -189,7 +187,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Badoo;
 				TargetAttributes = {
 					AE4897BA1DD47E1C00A978A0 = {
@@ -248,7 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5958E8031DD4856000970C4C /* Comment.swift in Sources */,
-				AE4897C11DD47E1C00A978A0 /* ViewController.swift in Sources */,
+				AE4897C11DD47E1C00A978A0 /* LoginViewController.swift in Sources */,
 				AE4897BF1DD47E1C00A978A0 /* AppDelegate.swift in Sources */,
 				5958E7FF1DD4855300970C4C /* User.swift in Sources */,
 				5958E8011DD4855800970C4C /* Post.swift in Sources */,
@@ -311,6 +309,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -360,6 +359,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
