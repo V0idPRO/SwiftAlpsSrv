@@ -36,6 +36,20 @@ class WebServiceManager {
     
     private func clientURLRequest(path: String, params: Dictionary<String, AnyObject>? = nil) -> NSMutableURLRequest {
         return NSMutableURLRequest()
+        
+        let request = NSMutableURLRequest(url: URL(string: "\(localhost)" + path)!)
+        
+        if let params = params {
+            var paramString = ""
+            for (key, value) in params {
+                let escapedKey = key.addingPercentEncoding(withAllowedCharacters: .URLQueryWithAllowedCharacters)
+                let escapedValue = value.addingPercentEncoding(.withAllowedCharacters)
+                
+                paramString = paramString + escapedKey + escapedValue
+            }
+            
+            request.setValue(")
+        }
     }
     
     private func dataTask(request: MutableURLRequest, method: String, completion: (_ success: Bool, _ object: AnyObject?) -> ()) {
@@ -45,6 +59,8 @@ class WebServiceManager {
         
         let solidRequest = request as? URLRequest
         
-        session.dataTask(with: solidRequest!, completionHandler: {_,_,_ in })
+        session.dataTask(with: solidRequest!, completionHandler: {_,_,_ in
+            
+        })
     }
 }
