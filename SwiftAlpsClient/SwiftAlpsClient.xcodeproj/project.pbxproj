@@ -19,6 +19,16 @@
 		AE4897C61DD47E1C00A978A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4897C51DD47E1C00A978A0 /* Assets.xcassets */; };
 		AE4897C91DD47E1C00A978A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4897C71DD47E1C00A978A0 /* LaunchScreen.storyboard */; };
 		AE4897D41DD47E1C00A978A0 /* SwiftAlpsClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4897D31DD47E1C00A978A0 /* SwiftAlpsClientTests.swift */; };
+		AECBC91E1DD495F100767B04 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC9131DD495F100767B04 /* Bytes.swift */; };
+		AECBC91F1DD495F100767B04 /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC9141DD495F100767B04 /* Dir.swift */; };
+		AECBC9201DD495F100767B04 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC9151DD495F100767B04 /* File.swift */; };
+		AECBC9211DD495F100767B04 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC9161DD495F100767B04 /* JSONConvertible.swift */; };
+		AECBC9221DD495F100767B04 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC9171DD495F100767B04 /* Log.swift */; };
+		AECBC9231DD495F100767B04 /* PerfectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC9181DD495F100767B04 /* PerfectError.swift */; };
+		AECBC9241DD495F100767B04 /* PerfectServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC9191DD495F100767B04 /* PerfectServer.swift */; };
+		AECBC9251DD495F100767B04 /* SwiftCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC91A1DD495F100767B04 /* SwiftCompatibility.swift */; };
+		AECBC9261DD495F100767B04 /* SysProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC91B1DD495F100767B04 /* SysProcess.swift */; };
+		AECBC9271DD495F100767B04 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC91C1DD495F100767B04 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		AE4897D31DD47E1C00A978A0 /* SwiftAlpsClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlpsClientTests.swift; sourceTree = "<group>"; };
 		AE4897D51DD47E1C00A978A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE4897DF1DD47E5300A978A0 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Untitled-ekokqkvhpidsgjbmklajruxlwswn/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
+		AECBC9131DD495F100767B04 /* Bytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bytes.swift; sourceTree = "<group>"; };
+		AECBC9141DD495F100767B04 /* Dir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
+		AECBC9151DD495F100767B04 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		AECBC9161DD495F100767B04 /* JSONConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONConvertible.swift; sourceTree = "<group>"; };
+		AECBC9171DD495F100767B04 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		AECBC9181DD495F100767B04 /* PerfectError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectError.swift; sourceTree = "<group>"; };
+		AECBC9191DD495F100767B04 /* PerfectServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfectServer.swift; sourceTree = "<group>"; };
+		AECBC91A1DD495F100767B04 /* SwiftCompatibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCompatibility.swift; sourceTree = "<group>"; };
+		AECBC91B1DD495F100767B04 /* SysProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SysProcess.swift; sourceTree = "<group>"; };
+		AECBC91C1DD495F100767B04 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +124,7 @@
 		AE4897B21DD47E1C00A978A0 = {
 			isa = PBXGroup;
 			children = (
+				AECBC91D1DD495F100767B04 /* PerfectLib */,
 				5958E7FD1DD4850D00970C4C /* Views */,
 				5958E7FC1DD4850600970C4C /* ViewControllers */,
 				5958E7FB1DD4850000970C4C /* Models */,
@@ -149,6 +170,24 @@
 				AE4897DF1DD47E5300A978A0 /* PerfectLib.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AECBC91D1DD495F100767B04 /* PerfectLib */ = {
+			isa = PBXGroup;
+			children = (
+				AECBC9131DD495F100767B04 /* Bytes.swift */,
+				AECBC9141DD495F100767B04 /* Dir.swift */,
+				AECBC9151DD495F100767B04 /* File.swift */,
+				AECBC9161DD495F100767B04 /* JSONConvertible.swift */,
+				AECBC9171DD495F100767B04 /* Log.swift */,
+				AECBC9181DD495F100767B04 /* PerfectError.swift */,
+				AECBC9191DD495F100767B04 /* PerfectServer.swift */,
+				AECBC91A1DD495F100767B04 /* SwiftCompatibility.swift */,
+				AECBC91B1DD495F100767B04 /* SysProcess.swift */,
+				AECBC91C1DD495F100767B04 /* Utilities.swift */,
+			);
+			name = PerfectLib;
+			path = "../PerfectTemplate/Packages/PerfectLib-2.0.3/Sources/PerfectLib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,12 +295,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5958E8031DD4856000970C4C /* Comment.swift in Sources */,
+				AECBC9231DD495F100767B04 /* PerfectError.swift in Sources */,
 				5958E80B1DD4932900970C4C /* WebServiceManager.swift in Sources */,
+				AECBC9221DD495F100767B04 /* Log.swift in Sources */,
 				AE4897C11DD47E1C00A978A0 /* LoginViewController.swift in Sources */,
 				5958E8051DD48FCF00970C4C /* BlogViewController.swift in Sources */,
+				AECBC9241DD495F100767B04 /* PerfectServer.swift in Sources */,
 				AE4897BF1DD47E1C00A978A0 /* AppDelegate.swift in Sources */,
+				AECBC9201DD495F100767B04 /* File.swift in Sources */,
+				AECBC9261DD495F100767B04 /* SysProcess.swift in Sources */,
+				AECBC9271DD495F100767B04 /* Utilities.swift in Sources */,
+				AECBC91F1DD495F100767B04 /* Dir.swift in Sources */,
+				AECBC9251DD495F100767B04 /* SwiftCompatibility.swift in Sources */,
+				AECBC91E1DD495F100767B04 /* Bytes.swift in Sources */,
 				5958E7FF1DD4855300970C4C /* User.swift in Sources */,
 				5958E8011DD4855800970C4C /* Post.swift in Sources */,
+				AECBC9211DD495F100767B04 /* JSONConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +398,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DCLIENT";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -392,6 +442,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "-DCLIENT";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;

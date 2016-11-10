@@ -21,17 +21,58 @@ import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
 
+
+JSONDecoding.registerJSONDecodable(name: User.registerName, creator: { return User() })
+JSONDecoding.registerJSONDecodable(name: Post.registerName, creator: { return Post() })
+
+
 // Create HTTP server.
 let server = HTTPServer()
 
 // Register your own routes and handlers
 var routes = Routes()
-routes.add(method: .get, uri: "/index.html", handler: {
+routes.add(method: .get, uri: "/login", handler: {
 		request, response in
-		response.setHeader(.contentType, value: "text/html")
-		response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world1111!</body></html>")
-		response.completed()
-	}
+
+
+//    JSONDecoding.createJSONConvertibleObject(name: User.registerName, values: [:])
+
+        if let userId = request.param(name: "token") {
+            do {
+                let userPosts = File("\(request.documentRoot)/\(userId)")
+                let size = userPosts.size
+                let bytes = try userPosts.readSomeBytes(count: size)
+                response.setHeader(.contentType, value: "text/json")
+                response.setHeader(.contentLength, value: "\(bytes.count)")
+                response.setBody(bytes: bytes)
+            } catch {
+                response.status = .internalServerError
+                response.setBody(string: "Error handling request: \(error)")
+            }
+        }
+        response.completed()
+    }
+)
+
+routes.add(method: .post, uri: "/post/addPost", handler: {
+    request, response in
+
+    if let post = request.postBodyString, let userId = request.param(name: "token") {
+        do {
+            let userPosts = File("\(request.documentRoot)/\(userId)")
+            let size = userPosts.size
+            let currentPosts = try userPosts.readString()
+
+            let decoded = try currentPosts.jsonDecode() as? [String:Any]
+            // TODO: Add new post to the end
+        } catch {
+            response.status = .internalServerError
+            response.setBody(string: "Error handling request: \(error)")
+        }
+    }
+
+    response.completed()
+}
 )
 
 // Add the routes to the server.

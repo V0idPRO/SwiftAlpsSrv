@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AECBC9101DD48F4100767B04 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC8F31DD48BD300767B04 /* User.swift */; };
+		AECBC9111DD48F4500767B04 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC8F51DD48BDC00767B04 /* Post.swift */; };
+		AECBC9121DD48F4500767B04 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECBC8F71DD48BE300767B04 /* Comment.swift */; };
 		OBJ_1000 /* e_gost_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_251 /* e_gost_err.c */; };
 		OBJ_1001 /* e_idea.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_252 /* e_idea.c */; };
 		OBJ_1002 /* e_null.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_253 /* e_null.c */; };
@@ -920,6 +923,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AECBC8F31DD48BD300767B04 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../SwiftAlpsClient/SwiftAlpsClient/Models/User.swift; sourceTree = "<group>"; };
+		AECBC8F51DD48BDC00767B04 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = ../../SwiftAlpsClient/SwiftAlpsClient/Models/Post.swift; sourceTree = "<group>"; };
+		AECBC8F71DD48BE300767B04 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = ../../SwiftAlpsClient/SwiftAlpsClient/Models/Comment.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
 		OBJ_100 /* bn_mul.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_mul.c; sourceTree = "<group>"; };
 		OBJ_101 /* bn_nist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_nist.c; sourceTree = "<group>"; };
@@ -2534,6 +2540,9 @@
 		OBJ_734 /* PerfectTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				AECBC8F31DD48BD300767B04 /* User.swift */,
+				AECBC8F51DD48BDC00767B04 /* Post.swift */,
+				AECBC8F71DD48BE300767B04 /* Comment.swift */,
 				OBJ_735 /* arguments.swift */,
 				OBJ_736 /* main.swift */,
 			);
@@ -2853,8 +2862,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				AECBC9121DD48F4500767B04 /* Comment.swift in Sources */,
 				OBJ_1543 /* arguments.swift in Sources */,
 				OBJ_1544 /* main.swift in Sources */,
+				AECBC9101DD48F4100767B04 /* User.swift in Sources */,
+				AECBC9111DD48F4500767B04 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
