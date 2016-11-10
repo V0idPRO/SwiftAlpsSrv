@@ -12,6 +12,7 @@
 		5958E8031DD4856000970C4C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E8021DD4856000970C4C /* Comment.swift */; };
 		5958E8051DD48FCF00970C4C /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E8041DD48FCF00970C4C /* BlogViewController.swift */; };
 		5958E8071DD4910A00970C4C /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5958E8061DD4910A00970C4C /* PostTableViewCell.xib */; };
+		5958E80B1DD4932900970C4C /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958E80A1DD4932900970C4C /* WebServiceManager.swift */; };
 		AE4897BF1DD47E1C00A978A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4897BE1DD47E1C00A978A0 /* AppDelegate.swift */; };
 		AE4897C11DD47E1C00A978A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */; };
 		AE4897C41DD47E1C00A978A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4897C21DD47E1C00A978A0 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		5958E8021DD4856000970C4C /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		5958E8041DD48FCF00970C4C /* BlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
 		5958E8061DD4910A00970C4C /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		5958E80A1DD4932900970C4C /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
 		AE4897BB1DD47E1C00A978A0 /* SwiftAlpsClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlpsClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4897BE1DD47E1C00A978A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE4897C01DD47E1C00A978A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		AE4897BD1DD47E1C00A978A0 /* SwiftAlpsClient */ = {
 			isa = PBXGroup;
 			children = (
+				5958E80A1DD4932900970C4C /* WebServiceManager.swift */,
 				AE4897BE1DD47E1C00A978A0 /* AppDelegate.swift */,
 				AE4897C51DD47E1C00A978A0 /* Assets.xcassets */,
 				AE4897CA1DD47E1C00A978A0 /* Info.plist */,
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5958E8031DD4856000970C4C /* Comment.swift in Sources */,
+				5958E80B1DD4932900970C4C /* WebServiceManager.swift in Sources */,
 				AE4897C11DD47E1C00A978A0 /* LoginViewController.swift in Sources */,
 				5958E8051DD48FCF00970C4C /* BlogViewController.swift in Sources */,
 				AE4897BF1DD47E1C00A978A0 /* AppDelegate.swift in Sources */,
