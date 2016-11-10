@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct Post {
+    let id:String
+    let date:Date
+    var draft = true
+    var title:String
+    var body:String
+    let comments:[Comment]
+}
