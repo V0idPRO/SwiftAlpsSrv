@@ -749,168 +749,168 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AE68F1ED1DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8DB1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_763;
 			remoteInfo = COpenSSL;
 		};
-		AE68F1EE1DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8DC1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1451;
 			remoteInfo = PerfectThread;
 		};
-		AE68F1EF1DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8DD1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_747;
 			remoteInfo = PerfectLib;
 		};
-		AE68F1F01DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8DE1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_763;
 			remoteInfo = COpenSSL;
 		};
-		AE68F1F11DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8DF1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1451;
 			remoteInfo = PerfectThread;
 		};
-		AE68F1F21DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E01DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1459;
 			remoteInfo = PerfectNet;
 		};
-		AE68F1F31DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E11DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_747;
 			remoteInfo = PerfectLib;
 		};
-		AE68F1F41DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E21DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_763;
 			remoteInfo = COpenSSL;
 		};
-		AE68F1F51DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E31DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1451;
 			remoteInfo = PerfectThread;
 		};
-		AE68F1F61DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E41DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1459;
 			remoteInfo = PerfectNet;
 		};
-		AE68F1F71DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E51DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1474;
 			remoteInfo = PerfectHTTP;
 		};
-		AE68F1F81DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E61DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_747;
 			remoteInfo = PerfectLib;
 		};
-		AE68F1F91DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E71DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_763;
 			remoteInfo = COpenSSL;
 		};
-		AE68F1FA1DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E81DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1451;
 			remoteInfo = PerfectThread;
 		};
-		AE68F1FB1DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8E91DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1459;
 			remoteInfo = PerfectNet;
 		};
-		AE68F1FC1DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8EA1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1474;
 			remoteInfo = PerfectHTTP;
 		};
-		AE68F1FD1DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8EB1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1497;
 			remoteInfo = CHTTPParser;
 		};
-		AE68F1FE1DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8EC1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_747;
 			remoteInfo = PerfectLib;
 		};
-		AE68F1FF1DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8ED1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_763;
 			remoteInfo = COpenSSL;
 		};
-		AE68F2001DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8EE1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1451;
 			remoteInfo = PerfectThread;
 		};
-		AE68F2011DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8EF1DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1459;
 			remoteInfo = PerfectNet;
 		};
-		AE68F2021DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8F01DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1474;
 			remoteInfo = PerfectHTTP;
 		};
-		AE68F2031DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8F11DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1497;
 			remoteInfo = CHTTPParser;
 		};
-		AE68F2041DCD25E700FA703F /* PBXContainerItemProxy */ = {
+		AECBC8F21DD4859F00767B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -1583,7 +1583,7 @@
 		OBJ_70 /* bf_ofb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_ofb64.c; sourceTree = "<group>"; };
 		OBJ_700 /* xts128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xts128.c; sourceTree = "<group>"; };
 		OBJ_702 /* openssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openssl.h; sourceTree = "<group>"; };
-		OBJ_703 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/ilyabilov/Desktop/Work/Tests/Server/PerfectTemplate/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_703 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/ilyabilov/Desktop/Work/Tests/SwiftAlpsSrv/PerfectTemplate/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap"; sourceTree = "<group>"; };
 		OBJ_705 /* Threading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
 		OBJ_706 /* ThreadQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadQueue.swift; sourceTree = "<group>"; };
 		OBJ_708 /* Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
@@ -1604,7 +1604,7 @@
 		OBJ_722 /* StaticFileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFileHandler.swift; sourceTree = "<group>"; };
 		OBJ_724 /* http_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
 		OBJ_726 /* http_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = http_parser.h; sourceTree = "<group>"; };
-		OBJ_727 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/ilyabilov/Desktop/Work/Tests/Server/PerfectTemplate/PerfectTemplate.xcodeproj/GeneratedModuleMap/CHTTPParser/module.modulemap; sourceTree = "<group>"; };
+		OBJ_727 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/ilyabilov/Desktop/Work/Tests/SwiftAlpsSrv/PerfectTemplate/PerfectTemplate.xcodeproj/GeneratedModuleMap/CHTTPParser/module.modulemap; sourceTree = "<group>"; };
 		OBJ_729 /* HPACK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPACK.swift; sourceTree = "<group>"; };
 		OBJ_73 /* bio_b64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_b64.c; sourceTree = "<group>"; };
 		OBJ_730 /* HTTP11Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP11Request.swift; sourceTree = "<group>"; };
@@ -2506,7 +2506,7 @@
 				OBJ_725 /* include */,
 			);
 			name = CHTTPParser;
-			path = "Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser";
+			path = "Packages/PerfectHTTPServer-2.0.4/Sources/CHTTPParser";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_725 /* include */ = {
@@ -2528,7 +2528,7 @@
 				OBJ_733 /* HTTPServer.swift */,
 			);
 			name = PerfectHTTPServer;
-			path = "Packages/PerfectHTTPServer-2.0.3/Sources/PerfectHTTPServer";
+			path = "Packages/PerfectHTTPServer-2.0.4/Sources/PerfectHTTPServer";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_734 /* PerfectTemplate */ = {
@@ -2578,7 +2578,7 @@
 				OBJ_18 /* Utilities.swift */,
 			);
 			name = PerfectLib;
-			path = "Packages/PerfectLib-2.0.2/Sources/PerfectLib";
+			path = "Packages/PerfectLib-2.0.3/Sources/PerfectLib";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -3569,122 +3569,122 @@
 		OBJ_1472 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_763 /* COpenSSL */;
-			targetProxy = AE68F1ED1DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8DB1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1473 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1451 /* PerfectThread */;
-			targetProxy = AE68F1EE1DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8DC1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1493 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_747 /* PerfectLib */;
-			targetProxy = AE68F1EF1DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8DD1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1494 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_763 /* COpenSSL */;
-			targetProxy = AE68F1F01DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8DE1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1495 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1451 /* PerfectThread */;
-			targetProxy = AE68F1F11DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8DF1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1496 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1459 /* PerfectNet */;
-			targetProxy = AE68F1F21DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E01DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1510 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_747 /* PerfectLib */;
-			targetProxy = AE68F1F31DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E11DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1511 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_763 /* COpenSSL */;
-			targetProxy = AE68F1F41DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E21DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1512 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1451 /* PerfectThread */;
-			targetProxy = AE68F1F51DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E31DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1513 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1459 /* PerfectNet */;
-			targetProxy = AE68F1F61DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E41DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1514 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1474 /* PerfectHTTP */;
-			targetProxy = AE68F1F71DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E51DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1532 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_747 /* PerfectLib */;
-			targetProxy = AE68F1F81DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E61DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1533 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_763 /* COpenSSL */;
-			targetProxy = AE68F1F91DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E71DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1534 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1451 /* PerfectThread */;
-			targetProxy = AE68F1FA1DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E81DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1535 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1459 /* PerfectNet */;
-			targetProxy = AE68F1FB1DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8E91DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1536 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1474 /* PerfectHTTP */;
-			targetProxy = AE68F1FC1DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8EA1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1537 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1497 /* CHTTPParser */;
-			targetProxy = AE68F1FD1DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8EB1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1553 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_747 /* PerfectLib */;
-			targetProxy = AE68F1FE1DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8EC1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1554 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_763 /* COpenSSL */;
-			targetProxy = AE68F1FF1DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8ED1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1555 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1451 /* PerfectThread */;
-			targetProxy = AE68F2001DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8EE1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1556 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1459 /* PerfectNet */;
-			targetProxy = AE68F2011DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8EF1DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1557 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1474 /* PerfectHTTP */;
-			targetProxy = AE68F2021DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8F01DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1558 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1497 /* CHTTPParser */;
-			targetProxy = AE68F2031DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8F11DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 		OBJ_1559 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1515 /* PerfectHTTPServer */;
-			targetProxy = AE68F2041DCD25E700FA703F /* PBXContainerItemProxy */;
+			targetProxy = AECBC8F21DD4859F00767B04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3820,7 +3820,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
-					"Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"Packages/PerfectHTTPServer-2.0.4/Sources/CHTTPParser/include",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
 				INFOPLIST_FILE = PerfectTemplate.xcodeproj/CHTTPParser_Info.plist;
@@ -3846,7 +3846,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
-					"Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"Packages/PerfectHTTPServer-2.0.4/Sources/CHTTPParser/include",
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
 				);
 				INFOPLIST_FILE = PerfectTemplate.xcodeproj/CHTTPParser_Info.plist;
@@ -3872,7 +3872,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
-					"Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"Packages/PerfectHTTPServer-2.0.4/Sources/CHTTPParser/include",
 				);
 				INFOPLIST_FILE = PerfectTemplate.xcodeproj/PerfectHTTPServer_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
@@ -3896,7 +3896,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
-					"Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"Packages/PerfectHTTPServer-2.0.4/Sources/CHTTPParser/include",
 				);
 				INFOPLIST_FILE = PerfectTemplate.xcodeproj/PerfectHTTPServer_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
@@ -3919,7 +3919,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
-					"Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"Packages/PerfectHTTPServer-2.0.4/Sources/CHTTPParser/include",
 				);
 				INFOPLIST_FILE = PerfectTemplate.xcodeproj/PerfectTemplate_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
@@ -3941,7 +3941,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
 					"Packages/COpenSSL-2.0.2/COpenSSL/include",
-					"Packages/PerfectHTTPServer-2.0.3/Sources/CHTTPParser/include",
+					"Packages/PerfectHTTPServer-2.0.4/Sources/CHTTPParser/include",
 				);
 				INFOPLIST_FILE = PerfectTemplate.xcodeproj/PerfectTemplate_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
